@@ -28,25 +28,25 @@ brew install gnu-sed --with-default-names
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
-brew install bash
-brew tap homebrew/versions
-brew install bash-completion2
+#brew install bash
+#brew tap homebrew/versions
+#brew install bash-completion2
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+#brew install wget --with-iri
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
+#brew install ringojs
+#brew install narwhal
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
-brew install homebrew/dupes/grep
+#brew install vim --override-system-vi
+#brew install homebrew/dupes/grep
 #brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+#brew install homebrew/dupes/screen
+#brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
 #brew tap bramstein/webfonttools
@@ -87,7 +87,7 @@ brew install homebrew/php/php55 --with-gmp
 brew install git
 #brew install git-lfs
 #brew install imagemagick --with-webp
-brew install lua
+#brew install lua
 #brew install lynx
 #brew install p7zip
 #brew install pigz
@@ -99,6 +99,27 @@ brew install lua
 brew install tree
 #brew install webkit2png
 #brew install zopfli
+brew install z
+
+# Install Apps
+brew cask install iterm2
+brew cask install alfred
+brew cask install spectacle
+brew cask install sublime-text
+brew cask install github-desktop
+brew cask install google-chrome
+brew cask install firefox
+brew cask install opera
+brew cask install skype
+brew cask install slack
+brew cask install spotify
+brew cask install caffeine
+brew cask install dropbox
+brew cask install imageoptim
+brew cask install rambox
+brew cask install transmit
+brew cask install sketch
+brew cask install vlc
 
 # Remove outdated versions from the cellar.
 brew cleanup
