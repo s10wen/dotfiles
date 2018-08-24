@@ -9,7 +9,7 @@
 # rvm for the rubiess
 #Paul does: curl -L https://get.rvm.io | bash -s stable --ruby
 #I do this one as it adds dependencies as well
-\curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
+#\curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
 
 # https://github.com/isaacs/nave
 # needs npm, obviously.
@@ -25,9 +25,10 @@
 
 # https://github.com/rupa/z
 # z, oh how i love you
-cd
-git clone https://github.com/rupa/z.git
-chmod +x ~/z/z.sh
+#cd
+#git clone https://github.com/rupa/z.git
+#chmod +x ~/z/z.sh
+# rupa/z can now be installed via `homebrew`, so moving over to `brew.sh`
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
 
 # z binary is already referenced from .bash_profile
@@ -62,9 +63,9 @@ chmod +x ~/z/z.sh
 
 # My extra stuff (do I need sudo here?)
 # Check gems are up to date without installing documentation
-sudo gem update --system --no-document
+#sudo gem update --system --no-document
 # Install jekyll
-sudo gem install jekyll
+#sudo gem install jekyll
 
 # Set symlink for Sublime Text
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+#ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
