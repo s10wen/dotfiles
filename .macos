@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# I highly recommend checking out the original source from Mathias:
+# https://mths.be/macos
+
+# Here's mine that has a few of my own personal preferences:
+# https://github.com/s10wen/dotfiles/blob/master/.macos
+
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
