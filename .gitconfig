@@ -79,6 +79,10 @@
 		fi \
 	}; f"
 
+	# Automatically set upsteam
+	# https://zarino.co.uk/post/git-set-upstream/
+	up = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
