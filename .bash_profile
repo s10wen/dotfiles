@@ -11,6 +11,9 @@ for file in ~/.{path,bash_prompt,aliases,functions,extra}; do
 done;
 unset file;
 
+# init z https://github.com/rupa/z
+source ~/z/z.sh
+
 # # Case-insensitive globbing (used in pathname expansion)
 # shopt -s nocaseglob;
 

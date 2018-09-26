@@ -82,6 +82,7 @@ brew install gnu-sed --with-default-names
 
 # Install other useful binaries.
 #brew install ack
+brew install bat
 #brew install dark-mode
 #brew install exiv2
 brew install git
@@ -99,7 +100,7 @@ brew install git
 brew install tree
 #brew install webkit2png
 #brew install zopfli
-brew install z
+#brew install z (didn't work via homebrew)
 
 # Install Apps
 brew cask install iterm2

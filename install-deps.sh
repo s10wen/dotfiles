@@ -28,7 +28,8 @@
 #cd
 #git clone https://github.com/rupa/z.git
 #chmod +x ~/z/z.sh
-# rupa/z can now be installed via `homebrew`, so moving over to `brew.sh`
+# rupa/z can now be installed via `homebrew`, so moving over to `brew.sh`, tried but didn't work,
+# so sticking with original way of doing this.
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
 
 # z binary is already referenced from .bash_profile
