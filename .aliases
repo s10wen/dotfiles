@@ -12,6 +12,13 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias g="git"
 
+# Hexo
+alias hs="hexo serve"
+alias hd="hexo gm && sw-precache --config source/sw-config.js && cp service-worker.js public && hexo deploy"
+
+# Gulp
+alias gs="gulp serve"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
