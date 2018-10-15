@@ -11,6 +11,7 @@
         }
     ],
     // copy my custom additions for `Theme - Phoenix`
+    // install package 'Theme - Phoenix'
     // cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User && touch Monokai-Phoenix.tmTheme && curl https://raw.githubusercontent.com/s10wen/dotfiles/master/init/Color%20Scheme%20-%20Default/Monokai-Phoenix.tmTheme > Monokai-Phoenix.tmTheme
     "color_scheme": "Packages/User/Monokai-Phoenix.tmTheme",
     "default_encoding": "UTF-8",
@@ -19,6 +20,7 @@
     "ensure_newline_at_eof_on_save": true,
     "file_exclude_patterns":
     [
+    	".cache"
         ".DS_Store",
         "Desktop.ini",
         "*.pyc",
@@ -26,14 +28,17 @@
         "Thumbs.db",
         ".Spotlight-V100",
         ".Trashes",
-        "*.scssc"
+        "*.scssc",
+        "*.tmp/*"
     ],
     "folder_exclude_patterns":
     [
         ".git",
         "node_modules",
         "build",
-        "dist"
+        "dist",
+        "public",
+        ".deploy_git"
     ],
     "font_size": 14,
     "highlight_modified_tabs": true,
