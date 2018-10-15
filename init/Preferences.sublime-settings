@@ -10,6 +10,7 @@
             "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
         }
     ],
+    // TODO: Test automation works from .macos > Sublime Text
     // copy my custom additions for `Theme - Phoenix`
     // install package 'Theme - Phoenix'
     // cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User && touch Monokai-Phoenix.tmTheme && curl https://raw.githubusercontent.com/s10wen/dotfiles/master/init/Color%20Scheme%20-%20Default/Monokai-Phoenix.tmTheme > Monokai-Phoenix.tmTheme

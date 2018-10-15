@@ -416,13 +416,16 @@ defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2
 ###############################################################################
 
 # Install Sublime Text settings
-#cp init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+cp init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 # Install Sublime Text key bindings
-#cp init/Default\ (OSX).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+cp init/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 # Install Sublime Text console.log snippet
-#cp init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+cp init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+# Install Sublime Text custom theme additions
+cp init/Monokai-Phoenix.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 ###############################################################################
 # Spectacle                                                                   #
