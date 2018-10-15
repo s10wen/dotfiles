@@ -427,6 +427,9 @@ cp init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text
 # Install Sublime Text custom theme additions
 cp init/Monokai-Phoenix.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
+# Install Sublime Text packages
+cp init/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
 ###############################################################################
 # Spectacle                                                                   #
 ###############################################################################

@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AlignTab",
+		"Babel",
+		"BracketHighlighter",
+		"DiffView",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"EJS 2",
+		"Emmet",
+		"FileDiffs",
+		"Focus File on Sidebar",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-stylelint",
+		"SyncedSideBar",
+		"Theme - Phoenix",
+		"WordCount"
+	]
+}
