@@ -10,7 +10,9 @@
             "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
         }
     ],
-    "color_scheme": "Packages/User/Monokai-Phoenix (SL).tmTheme",
+    // copy my custom additions for `Theme - Phoenix`
+    // cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User && touch Monokai-Phoenix.tmTheme && curl https://raw.githubusercontent.com/s10wen/dotfiles/master/init/Color%20Scheme%20-%20Default/Monokai-Phoenix.tmTheme > Monokai-Phoenix.tmTheme
+    "color_scheme": "Packages/User/Monokai-Phoenix.tmTheme",
     "default_encoding": "UTF-8",
     "detect_indentation": false,
     "draw_white_space": "all",
@@ -24,15 +26,16 @@
         "Thumbs.db",
         ".Spotlight-V100",
         ".Trashes",
-        "*.css",
         "*.scssc"
     ],
     "folder_exclude_patterns":
     [
         ".git",
-        "node_modules"
+        "node_modules",
+        "build",
+        "dist"
     ],
-    "font_size": 12,
+    "font_size": 14,
     "highlight_modified_tabs": true,
     "ignored_packages":
     [
@@ -40,11 +43,13 @@
     ],
     "match_brackets": true,
     "match_brackets_angle": true,
-    "rulers": [80],
+    "rulers":
+    [
+        80
+    ],
     "scroll_past_end": true,
     "show_encoding": true,
     "show_line_endings": true,
-    "tab_size": 4,
     "theme": "Phoenix Dark.sublime-theme",
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
