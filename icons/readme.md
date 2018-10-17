@@ -26,3 +26,7 @@ click on iTerm, and type <code>cmd-i</code>.
 * Right-click on your iTerm application and choose Show Package Contents.
 * Navigate to <code>/Contents/Resources</code>, copy the <code>.icns</code>
 file to this directory (choose Replace when Finder asks).
+
+# Dock
+
+To update and show in dock, right-click > Options > Show in Finder.
