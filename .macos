@@ -355,6 +355,9 @@ defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
+# Update Icon
+cp icons/iTerm/AppIcon.icns /Applications/iTerm.app/Contents/Resources/
+
 ###############################################################################
 # Activity Monitor                                                            #
 ###############################################################################
@@ -429,6 +432,9 @@ cp init/Monokai-Phoenix.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/
 
 # Install Sublime Text packages
 cp init/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+# Update Icons
+cp -R icons/Sublime\ Text/. /Applications/Sublime\ Text.app/Contents/Resources/
 
 ###############################################################################
 # Spectacle                                                                   #
