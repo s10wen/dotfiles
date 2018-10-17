@@ -78,7 +78,7 @@ npm install -g git-open
 
 # Type `trash` as the safe `rm` alternative.
 # Will move to Trash instead of removing immediately.
-npm install --global trash-cli
+npm install -g trash-cli
 
 ###############################################################################
 # Rupa Z                                                                      #
