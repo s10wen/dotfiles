@@ -18,6 +18,7 @@
     "color_scheme": "Packages/User/Monokai-Phoenix.tmTheme",
     "default_encoding": "UTF-8",
     "detect_indentation": false,
+    "draw_indent_guides": true,
     "draw_white_space": "all",
     "ensure_newline_at_eof_on_save": true,
     "file_exclude_patterns":
