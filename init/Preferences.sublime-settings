@@ -10,6 +10,7 @@
             "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
         }
     ],
+    "caret_style": "phase",
     // TODO: Test automation works from .macos > Sublime Text
     // copy my custom additions for `Theme - Phoenix`
     // install package 'Theme - Phoenix'
