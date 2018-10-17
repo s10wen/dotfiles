@@ -118,6 +118,11 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 # Extra Stuff to Test / Remove                                                #
 ###############################################################################
 
+# zip a folder and set a password.
+# I always forget how to do this:
+# zip -er archive.zip /path/to/directory/
+# TODO: look at a better solution
+
 # https://rvm.io
 # rvm for the rubiess
 #Paul does: curl -L https://get.rvm.io | bash -s stable --ruby
