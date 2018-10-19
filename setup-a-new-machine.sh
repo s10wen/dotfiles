@@ -118,6 +118,16 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 # Extra Stuff to Test / Remove                                                #
 ###############################################################################
 
+# TODO: Look at automating Dock Setup:
+# https://github.com/kcrawford/dockutil
+# Finder, Kiwi, Spotify,
+# 'Space',
+# Chrome, Firefox, Safari, Opera, Brave,
+# 'Space'
+# GitHub Desktop, Sublime Text, iTerm, Transmit
+# 'Space'
+# Slack, Rambox
+
 # zip a folder and set a password.
 # I always forget how to do this:
 # zip -er archive.zip /path/to/directory/
