@@ -19,6 +19,10 @@ alias hd="hexo gm && sw-precache --config source/sw-config.js && cp service-work
 # Gulp
 alias gs="gulp serve"
 
+# npm
+alias ng="npm list -g --depth=0"
+alias nl="npm list --depth=0"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
