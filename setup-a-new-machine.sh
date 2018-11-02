@@ -118,6 +118,18 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 # Extra Stuff to Test / Remove                                                #
 ###############################################################################
 
+# Other npm -g goodness I like
+├── bower
+├── generator-webapp
+├── gulp
+├── gulp-cli
+├── hexo
+├── np
+├── npm
+├── prettier
+├── yarn
+└── yo
+
 # TODO: Look at automating Dock Setup:
 # https://github.com/kcrawford/dockutil
 # Finder, Kiwi, Spotify,
