@@ -170,3 +170,6 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 #sudo gem update --system --no-document
 # Install jekyll
 #sudo gem install jekyll
+
+# TODO: Add to .osx Sublime Text automation setup
+# https://gist.github.com/pbojinov/24316c2a0f5651a347d1
