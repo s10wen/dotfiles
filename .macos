@@ -81,7 +81,7 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Menu bar: Set date and time format e.g. Sun 11 Aug 16:55
-defaults write com.apple.menuextra.clock DateFormat -string "E MMM d HH:mm"
+defaults write com.apple.menuextra.clock "DateFormat" "EEE MMM d H.mm"
 
 # Mute all sounds, incl volume change feedback
 defaults write "com.apple.sound.beep.feedback" -int 0
