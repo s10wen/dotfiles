@@ -50,15 +50,10 @@ fi
 # Homebrew                                                                    #
 ###############################################################################
 
-# TODO: Previously I ran:
+# Install:
 #/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# TODO: Next time try this:
-# (If your machine has /usr/local locked down (like google's), you can do this to place everything in ~/.homebrew
-mkdir $HOME/.homebrew && curl -L https://github.com/mxcl/homebrew/tarball/master | tar xz --strip 1 -C $HOME/.homebrew
-export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
-
-# install all the things
+# Install all the things
 #./brew.sh
 #./brew-cask.sh
 # Check for new hawtness at:
@@ -119,12 +114,11 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 ###############################################################################
 
 # Other npm -g goodness I like
-├── bower
 ├── generator-webapp
 ├── gulp
 ├── gulp-cli
 ├── hexo
-├── np
+├── np (A better npm publish)
 ├── npm
 ├── prettier
 ├── yarn
@@ -136,9 +130,11 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 # 'Space',
 # Chrome, Firefox, Safari, Opera, Brave,
 # 'Space'
-# GitHub Desktop, Sublime Text, iTerm, Transmit
+# GitHub Desktop, Sublime Text, Visual Studio Code, iTerm, TextEdit
 # 'Space'
-# Slack, Rambox
+# Transmit, Sequel Pro
+# 'Space'
+# Slack, Tweetbot, Rambox, System Preferences, Sketch, Gyazo GIF, SVG OMG (using https://www.fluidapp.com/)
 
 # zip a folder and set a password.
 # I always forget how to do this:
@@ -157,7 +153,7 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 #npm install -g nave
 
 # https://github.com/dronir/SpotifyControl
-# Spotify Controll Script
+# Spotify Control Script
 #cd ~/code
 #git clone git://github.com/dronir/SpotifyControl.git
 
