@@ -162,7 +162,6 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 #cd ~/code
 #git clone git://github.com/jeroenbegyn/VLCControl.git
 
-
 # https://ytdl-org.github.io/youtube-dl/download.html
 # Download YouTube Videos
 #brew install youtube-dl
