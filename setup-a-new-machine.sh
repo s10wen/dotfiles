@@ -172,5 +172,8 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/loc
 # Install jekyll
 #sudo gem install jekyll
 
+# Disable Updates for Sketch
+#defaults write com.bohemiancoding.sketch3.plist SUEnableAutomaticChecks -bool false
+
 # TODO: Add to .osx Sublime Text automation setup
 # https://gist.github.com/pbojinov/24316c2a0f5651a347d1
