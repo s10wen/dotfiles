@@ -121,6 +121,7 @@ brew cask install rambox
 brew cask install transmit
 brew cask install sketch
 brew cask install vlc
+brew cask install cleanmymac
 
 # Remove outdated versions from the cellar.
 brew cleanup
